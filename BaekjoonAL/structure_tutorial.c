@@ -43,18 +43,6 @@ void input_account(account* ac) {
 	}
 }
 
-account check_id_pw(account ac[5]) {
-	int check_id, check_pw;
-
-
-}
-
-void deposit() {
-}
-
-void withdrawal() {
-}
-
 void accountInfo(account ac){
 	int account_id;
 	char name[50] = "";
@@ -73,16 +61,6 @@ void accountInfo(account ac){
 	return;
 }
 
-// «—∞Ë¡¬¿« 
-void balance(account ac) {
-	
-	
-
-}
-
-void exit_bank() {
-}
-
 int main(void) {
 	//struct account type array
 	account* ac = (account*)malloc(sizeof(account) * MAX);
@@ -92,52 +70,12 @@ int main(void) {
 	int n = 1;
 	
 	memset((void *) ac, 0, sizeof(account) * MAX);
-	for (int i = 0; i < MAX; i++) {
-		
-	}
-	/*
-	for (int i = 0; i < MAX; i++) {
-		memset((void *)&ac[i], 0, sizeof(account));
-	}
-	*/
 
 	//five bank accounts function call
 	input_account(ac);
 	for (int i = 0; i < MAX; i++) {
-
 		accountInfo(ac[i]);
 	}
-	/*
-	while (n) {
-		printf("==========EWHA BANK ATM==========\n\n");
-		printf("1.\t DEPOSIT \n");
-		printf("2.\t WITHDRAWL \n");
-		printf("3.\t BALANCE \n");
-		printf("4.\t QUIT \n");
-		printf("Please choose the number from the menu : ");
-		scanf("%d", &num);
-		printf("----------------------------------\n");
-
-		if (num == 1 || num == 2 || num == 3) {
-			current_ac = check_id_pw(ac);
-		}
-
-		switch (num) {
-		case 1:
-			deposit();
-			break;
-		case 2:
-			withdrawl();
-			break;
-		case 3:
-			balance(current_ac);
-			break;
-		case 4:
-			exit_bank();
-			break;
-		}
-	}
-	*/
 
 	system("pause");
 	return 0;
