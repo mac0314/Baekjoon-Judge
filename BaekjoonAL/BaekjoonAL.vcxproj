@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1076.cpp" />
+    <ClCompile Include="10845.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{33E64391-EC54-4FBA-AAE4-657FF9E88335}</ProjectGuid>
