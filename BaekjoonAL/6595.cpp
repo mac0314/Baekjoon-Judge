@@ -1,3 +1,5 @@
+/*
+
 #include <iostream>
 #include <cstdlib>
 
@@ -70,3 +72,5 @@ float calcFrogDistance(int** path, int* x, int* y, int testCaseNum) {
 
 	return 1;
 }
+
+*/
