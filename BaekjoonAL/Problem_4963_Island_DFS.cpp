@@ -46,7 +46,7 @@ int main(void) {
 void dfs(int y, int x, int& ans) {
 	visited[y][x] = ans;
 
-	for (int i = 0; i<9; i++) {
+	for (int i = 0; i < 9; i++) {
 		int tx = x + dx[i];
 		int ty = y + dy[i];
 
